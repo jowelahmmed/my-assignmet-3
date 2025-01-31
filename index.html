@@ -11,11 +11,14 @@
 <!-- tailwind cdn link -->
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- font-awesome icon cdn link -->
+<script src="https://kit.fontawesome.com/9422eaafa2.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
     <header class="bg-slate-400 lg:px-5  ">
-        <nav class="container mx-auto px-5 py-5 border-b-2 ">
+        <nav class="container mx-auto px-5 py-5  border-b-2 ">
             <!-- nav links and button section -->
             <div class="flex justify-between  ">
                 <!-- nav brand name -->
@@ -23,8 +26,8 @@
                     <img src="./c2-assets/logo-header.png" alt="">
                 </div>
                     <!-- nav links   -->
-                <div class="items-center flex gap-8 hidden">
-                    <div class="">
+                <div class="items-center md:flex lg:flex gap-8 lg:block md:block hidden">
+                    <div class=" mr-20">
                         <ul class="flex space-x-5 ">
                             <li><a href="">Product</a></li>
                             <li><a href=""></a>Servies</li>
@@ -40,7 +43,7 @@
                      </div>
 
                 </div>
-                <button class="btn btn-square btn-ghost">
+                <button class="btn btn-square btn-ghost md:hidden lg:hidden">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -79,10 +82,10 @@
 
             <div class="card bg-blue-300 shadow-xl">
                 <figure class="px-10 pt-10">
-                  <img
+                  <img 
                     src="./c2-assets/service.png"
                     alt="services"
-                    class="rounded-xl" />
+                    class="bg-white rounded-full p-2 " />
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title">24/7 Services </h2>
@@ -98,11 +101,11 @@
                   <img
                     src="./c2-assets/delivery.png"
                     alt="car png"
-                    class="rounded-xl" />
+                    class="bg-white rounded-full p-2" />
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title">Fast Delivery </h2>
-                  <p> vegetable market is a type of building or structure created and designed in various colors,</p>
+                  <p> vegetable market is a type of building or structure created and designed in various</p>
                   
                   
                   </div>
@@ -114,7 +117,7 @@
                   <img
                     src="./c2-assets/healthy.png"
                     alt="healthy"
-                    class="rounded-xl" />
+                    class="bg-white rounded-full p-2" />
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title">Healthy Products  </h2>
@@ -126,7 +129,183 @@
               </div>
            </div>
         </div>
+        <!-- popular projucts section -->
+         <section class="bg-[#D9D9D9] mt-10 py-10">
+            <h3 class=" ml-5 py-5 lg:mr-8 text-4xl font-semibold text-[#179800] ">popurar Products</h3>
 
+            <div class="grid grid-cols-1 lg:grid-cols-2   mx-5 lg:mx-14 mt-5 gap-5 ">
+
+                
+                <!-- 30% offer section -->
+                 <div class="bg-[#F9DF8A] rounded-lg  ">
+                    <div class="space-y-4  p-8">
+                        <h4 class="text-3xl font-bold">30% off</h4>
+                    <p class="text-xl font-medium">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                    <button class="bg-white font-bold rounded-lg py-2 px-4"> Buy Now</button>
+
+                    </div>
+                    <div >
+                        <img   src="./c2-assets/vegetable-offer.png" alt="">
+                    </div>
+
+                 
+
+                 <!-- 30% card section -->
+                  
+
+                  </div>
+                  <!-- card 1 -->
+             <div class="grid grid-cols-2  lg:grid-cols-3 gap-5" > 
+
+                <div class="bg-white rounded-lg content-center  shadow-lg "> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+                  <!-- card 2 -->
+                  <div class="bg-white rounded-lg content-center shadow-lg"> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+                  <!-- card 3 -->
+                  <div class="bg-white rounded-lg  content-center shadow-lg"> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+                  <!-- card 4 -->
+                  <div class="bg-white rounded-lg content-center shadow-lg"> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+                  <!-- card 5 -->
+                  <div class="bg-white rounded-lg content-center shadow-lg"> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+                  <!-- card 6 -->
+                  <div class="bg-white rounded-lg content-center shadow-lg"> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+                  <!-- card 7 -->
+                  <div class="bg-white rounded-lg content-center  shadow-lg"> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+                  <!-- card 8 -->
+                  <div class="bg-white rounded-lg content-center  shadow-lg"> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+                  <!-- card 9 -->
+                  <div class="bg-white rounded-lg content-center  hidden lg:block shadow-lg"> 
+                    <!-- card img -->
+                     <div class="flex p-4 gap-2">
+                        <div class="bg-[#D9D9D9] rounded-lg"><img src="./c2-assets/image 41.png" alt=""> </div>
+                     <!-- card titel -->
+                      <div class="">
+                        <div class="flex">
+                            <p class="text-orange-500"><i class="fa-solid fa-star"></i></p>
+                            <p>4.5</p>
+                        </div>
+                        <h5>Onion 1 kg</h5>
+                        <p>$39.99</p>
+                     </div>
+                      </div>
+                  </div>
+
+
+             </div>
+            </div>
+
+         </section>
     </main>
 
     <footer>
