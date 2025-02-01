@@ -14,11 +14,19 @@
 <!-- font-awesome icon cdn link -->
 <script src="https://kit.fontawesome.com/9422eaafa2.js" crossorigin="anonymous"></script>
 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<style>
+    .sora-font {
+      font-family: "Sora", serif;
+    }
+  </style>
+
 
 </head>
-<body>
-    <header class="bg-slate-400 lg:px-5  ">
-        <nav class="container mx-auto px-5 py-5   border-b-2 ">
+<body class="sora-font">
+    <header class="bg-gradient-to-b from-slate-400 to-yellow-100 lg:px-5  ">
+        <nav class="container mx-auto px-5 py-5   ">
             <!-- nav links and button section -->
             <div class="flex justify-between  ">
                 <!-- nav brand name -->
@@ -26,12 +34,12 @@
                     <img src="./c2-assets/logo-header.png" alt="">
                 </div>
                     <!-- nav links   -->
-                <div class="items-center md:flex lg:flex gap-8 text-center lg:block md:block hidden">
-                    <div class=" ">
-                        <ul class="flex space-x-10 ">
+                <div class="items-center md:flex lg:flex  text-center lg:block md:block hidden">
+                    <div class=" lg:mr-36 md:mr-4  ">
+                        <ul class="flex lg:space-x-10 md:space-x-5 lg:text-2xl md:text-xl  ">
                             <li><a href="">Product</a></li>
-                            <li><a href=""></a>Servies</li>
-                            <li><a href=""></a>Contact Us</li>
+                            <li><a href="">Servies</a></li>
+                            <li><a href="">Contact Us</a></li>
                             
                         </ul>
                     </div>
@@ -44,7 +52,7 @@
                      </div>
 
                 </div>
-                <button class="btn btn-square btn-ghost md:hidden lg:hidden">
+                <button class="btn btn-square btn-ghost  block  md:hidden lg:hidden">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -58,20 +66,23 @@
                     </svg>
                   </button>
             </div>
+            
         </nav>
+        <div class="  border-b-2 mt-2  block  md:hidden lg:hidden"></div>
          <!-- nav titel and img sectiom  -->
          <div class="mt-5 text-center px-5">
             <!-- nav titel -->
              <div class="space-y-4">
-                <h2 class="text-5xl font-semibold">Freshness <span class="text-[#179800]">You Can <br>
+                <h2 class="text-5xl font-semibold animate-pulse">Freshness <span class="text-[#179800]">You Can <br>
                     Count</span> On, Prices You’ll Love!</h2>
-                    <p class="text-2xl w-2/3 text-center mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+                    <p class="text-2xl w-2/3 text-center mx-auto animate-pulse">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
              </div>
              <div class="mt-5">
-                <img class="mx-auto" src="./c2-assets/hero-vegetables.png" alt="">
+                <img class="mx-auto " src="./c2-assets/hero-vegetables.png" alt="">
              </div>
          </div>
             </div>
+           
     </header>
 
     <main>
@@ -90,7 +101,7 @@
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title">24/7 Services </h2>
-                  <p> vegetable market is a type of building or structure created and designed in various colors,</p></div>
+                  <p>  using numerals for 13 and beyond: She made four trips to New York. He lived through seven winters in Ithica.</p></div>
                  
                   
                   
@@ -106,7 +117,7 @@
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title">Fast Delivery </h2>
-                  <p> vegetable market is a type of building or structure created and designed in various</p>
+                  <p> Fast delivery is a delivery service that delivers orders quickly, either on the same day or within a short time frame.</p>
                   
                   
                   </div>
@@ -122,7 +133,7 @@
                 </figure>
                 <div class="card-body items-center text-center">
                   <h2 class="card-title">Healthy Products  </h2>
-                  <p> vegetable market is a type of building or structure created and designed in various colors,</p>
+                  <p> A healthy paragraph describes the importance of health and how to maintain it. Health is a state of physical, mental, and social well-being. </p>
                  
                   
                   </div>
@@ -145,8 +156,8 @@
                     <button class="bg-white font-bold rounded-lg py-2 px-4"> Buy Now</button>
 
                     </div>
-                    <div >
-                        <img   src="./c2-assets/vegetable-offer.png" alt="">
+                    <div class="relative min-h-[200px] " >
+                        <img class="absolute right-4 bottom-0"  src="./c2-assets/vegetable-offer.png" alt="">
                     </div>
 
                  
@@ -343,45 +354,81 @@
 
 
             </div>
-
-
          </section>
-         <!-- get grocery news section -->
-          <section class="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 bg-slate-300 rounded-lg mx-5 lg:mx-14
-           mt-10 content-center items-center">
-
-            <!--vegetabie busket  -->
-            <div class="p-8">
-                <img src="./c2-assets/vegetable-busket.png" alt="">
+         <!-- this is food section  -->
+         <h3 class="text-4xl font-semibold text-[#179800] my-8 ml-5 lg:ml-16 ">Choose Your food items </h3>
+         <div class="carousel carousel-center bg-gray-400   space-x-4 p-8  mt-5">
+                
+            <div class="carousel-item 1">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+                class="rounded-b-full" />
             </div>
-            <!-- get news section -->
-
-            <div class="space-y-4 p-8 content-center">
-                <h3 class="text-4xl font-bold">Get Grocery News!</h3>
-                <p class="font-semibold text-xl">Exclusive training tips, ticks, product deals and more.</p>
-                <input class=" pl-3 rounded-md py-1 w-4/5" type="email" value="" placeholder="Enter Email">
-                <button class="block py-2 px-4 bg-green-600 rounded-lg text-white ">Subscribe</button>
-
+            <div class="carousel-item 2">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+                class="rounded-s-full" />
             </div>
+            <div class="carousel-item 3">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+                class="rounded-es-full" />
+            </div>
+            <div class="carousel-item 4">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+                class="rounded-l-full" />
+            </div>
+            <div class="carousel-item 5">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+                class="rounded-t-full" />
+            </div>
+            <div class="carousel-item 6">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+                class="rounded-ss-full" />
+            </div>
+          </div>
 
-
-          </section>
     </main>
 
-    <footer class="">
+    
+    <footer class="relative mt-96 lg:mt-72  ">
+        <!-- get grocery news section -->
+        <section class=" absolute z-10 bottom-60   grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 bg-slate-300 rounded-lg lg:mx-20
+        mb-28 lg:mb-5 content-center lg:mr-8 items-center mx-8 ">
 
-        <footer class="  footer  bg-slate-400 text-base-content mt-10 p-10">
+         <!--vegetabie busket  -->
+         <div class="p-8">
+             <img src="./c2-assets/vegetable-busket.png" alt="">
+         </div>
+         <!-- get news section -->
+
+         <div class="space-y-4 p-8 content-center">
+             <h3 class="text-4xl font-bold">Get Grocery News!</h3>
+             <p class="font-semibold text-xl">Exclusive training tips, ticks, product deals and more.</p>
+             <input class=" pl-3 rounded-md py-1 w-4/5" type="email" value="" placeholder="Enter Email">
+             <button class="block py-2 px-4 bg-green-600 rounded-lg text-white ">Subscribe</button>
+
+         </div>
+
+
+       </section>
+
+
+        <footer  class="footer  bg-slate-400 text-base-content pb-7 pt-96 pl-10  ">
             <nav>
               <div><img src="./c2-assets/logo-footer.png" alt=""></div>
-              <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+              <p class=" ">Discover a world of treats,  toys, and essentials handpicked for your furry friends</p>
             </nav>
-            <nav>
+            <nav class="">
               
               <a class="link link-hover">Product</a>
               <a class="link link-hover">Contact Us</a>
               <a class="link link-hover">Services</a>
             </nav>
-            <nav>
+            <nav class="">
               <h6 class="footer-title">Follow US</h6>
               <div class="grid grid-flow-col gap-4">
                 <a>
@@ -419,7 +466,9 @@
                 </a>
               </div>
             </nav>
-          </footer>
+         
+        
+        </footer>
     </footer>
     
 </body>
